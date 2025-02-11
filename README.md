@@ -1,8 +1,24 @@
 # Projeto Desafio Amigo Secreto
+💡 Organize seu Amigo Secreto de forma rápida, prática e sem papelzinho!
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/edd323c3-71f1-4260-b3aa-2bc8067c0671" alt="Logo" width="100%"/>
 </p>
+
+# 🎁 Amigo Secreto Online: Simples, Rápido e Divertido! 🎉
+Chega de papelzinho! Com nosso Sorteio de Amigo Secreto Online, você organiza tudo de forma digital, prática e segura! 💻✨
+
+- ✅ Cadastre os participantes
+- ✅ Realize o sorteio com um clique
+- ✅ Cada um descobre seu amigo secreto anonimamente
+- ✅ 100% gratuito e sem complicação!
+
+🔔 Destaques:
+- 🚀 Interface intuitiva e fácil de usar
+- 🔒 Sorteio seguro e sigiloso
+- 🗣️ Narrador para tornar o sorteio mais dinâmico
+
+🎅 Monte seu grupo agora e faça a mágica acontecer! 🎄
 
 
 ## Screenshots

@@ -12,8 +12,14 @@
 
 ## Demonstração
 
+https://github.com/user-attachments/assets/4329076d-e277-4e41-9a6b-8666400c5870
+
+<br>
+<br>
+<br>
 
 
+![Vídeo sem título ‐ Feito com o Clipchamp (1)](https://github.com/user-attachments/assets/87fe3553-188b-4485-a513-712d49b47bf7)
 
 
 
@@ -42,12 +48,12 @@
 	-	https://git-scm.com/downloads
 
 - Baixar os dados:
-  - https://github.com/AllanR1991/challenge-amigo-secreto-ONE-G8/archive/refs/heads/main.zip
+  - https://github.com/AllanR1991/desafio-amigo-secreto/archive/refs/heads/main.zip
 
 -	Ou efetuar um clone do repositório através dos seguintes passos.
 	-	Ir até a pasta ou local desejável para efetuar o download do repositório > clicar com o botão esquerdo do mouse > selecionar o terminal de sua preferencia (Recomendado: Git Bash) e executar o código abaixo.
 ```bash
-  npm clone https://github.com/AllanR1991/challenge-amigo-secreto-ONE-G8.git
+  npm clone https://github.com/AllanR1991/desafio-amigo-secreto.git
 ```
 ## Como Usar
 1. Abra o arquivo `index.html` em qualquer navegador moderno.

@@ -1,37 +1,136 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amigo Secreto</title>
-</head>
-<body>
-    <div>
-        <main>
-            
-            <h1>Amigo Secreto</h1>
-            
-            <div>
-                <input type="text" name="" id="">
-                <button>Enviar</button>
-            </div>
-            
-            <ul>
-                <li>Allan <button>excluir</button></li>
-                <li>Eva <button>excluir</button></li>
-                <li>Ana <button>excluir</button></li>
-                <li>Claudio <button>excluir</button></li>
-                <li>Karen <button>excluir</button></li>
-                <li>Melisa <button>excluir</button></li>
-                <li>Jeferson <button>excluir</button></li>
-                <li>Everton <button>excluir</button></li>
-                <li>Melisa <button>excluir</button></li>
-                <li>Ruan <button>excluir</button></li>
-            </ul>
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/img/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="./assets/img/favicon/favicon.svg"
+    />
+    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/img/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Amigo secreto" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> -->
 
-            <button>Sortear</button>
-        </main>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+    </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      defer
+    ></script>
+
+    <script src="./funcoes.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <main class="content-main">
+        <h1 class="title">
+          <img src="./assets/img/Amigo Secreto.png" alt="Logo Amigo Secreto" />
+        </h1>
+
+        <div class="input-group">
+          <div class="input-group-name">
+            <label for="input-name" class="label-participant"
+              >Digite um nome</label
+            >
+            <input
+              class="input-participant"
+              type="text"
+              name="input-name"
+              id="input-name"
+              spellcheck="true"
+              placeholder="Digite um nome"
+              maxlength="50"
+            />
+          </div>
+          <button class="btn-cadastrar" aria-label="Cadsatro" disabled>
+            <i class="fa-solid fa-check check"></i>
+          </button>
+        </div>
+
+        <p class="alert-name"></p>
+
+        <p class="drawer"></p>
+
+        <div class="conteiner-draw">
+          <p class="draw-friend"></p>
+
+          <div class="container-icon">
+            <i class="fa-solid fa-eye-slash eye-hide"></i>
+            <i class="fa-solid fa-eye iconeye eye"></i>
+          </div>
+        </div>
+
+        <ul class="participants-list">
+          <!-- <li class="paticipant-item">
+            <p class="participant-name">Allan Pereira Alberto</p>
+            <button class="button-remove" aria-label="Excluir">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+          <li class="paticipant-item">
+            <p class="participant-name">Ana Souza Ferreira da Silva</p>
+            <button class="button-remove" aria-label="Excluir">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+          <li class="paticipant-item">
+            <p class="participant-name">Eva Maria dos Santos Lima</p>
+            <button class="button-remove" aria-label="Excluir">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+          <li class="paticipant-item">
+            <p class="participant-name">Matheus Oliveira Costa Mendes</p>
+            <button class="button-remove" aria-label="Excluir">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+          <li class="paticipant-item">
+            <p class="participant-name">Silvana Beatriz Rocha Almeida</p>
+            <button class="button-remove" aria-label="Excluir">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+          <li class="paticipant-item">
+            <p class="participant-name">Geferson Luiz Monteiro Cardoso</p>
+            <button class="button-remove" aria-label="Excluir">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+          <li class="paticipant-item">
+            <p class="participant-name">João Ricardo Nascimento Pereira</p>
+            <button class="button-remove" aria-label="Excluir">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </li>
+          <li class="paticipant-item">
+            <p class="participant-name">Camila Fernanda Ribeiro Bastos</p>
+            <button class="button-remove" aria-label="Excluir">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </li> -->
+        </ul>
+
+        <button class="button-shuffle" disabled>Sortear</button>
+        <button class="button-reset">Reiniciar</button>
+      </main>
     </div>
-    
-</body>
+  </body>
 </html>
